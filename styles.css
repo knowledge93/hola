@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Poppins:wght@200&family=Schibsted+Grotesk&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #76BED0;
+    margin-top: 2em;
+}
+
+.container{
+    max-width: 400px;
+    border: 4px solid #F7CB15;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: #fff;
+    box-shadow: -1px 7px 5px 0px rgba(135,142,136,0.44);
+}
+
+.title{
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+select{
+    width: 100%;
+    padding: .5em;
+    border-radius: .8em;
+    margin-bottom: .5em;
+}
+
+label{
+    display: block;
+    margin-bottom: .5em;
+}
+
+textarea{
+    margin-bottom: .5em;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 5em;
+    min-height: 5em;
+    padding: .5em;
+    border-radius: .8em;
+}
+
+textarea:focus,select:focus{
+    outline: none;
+}
+
+.group-btn{
+    text-align: center;
+}
+
+button{
+    margin-top: .5em;
+    font-size: 1.2em;
+    padding: .3em .7em;
+    border: none;
+    letter-spacing: .1em;
+    border-radius: .5em;
+    background-color: #F55D3E;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.loading,.group-salida{
+    display: none;
+}
+
+.loading{
+    text-align: center;
+}
+

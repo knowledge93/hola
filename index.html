@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Convertidor de Mayuscula - Minuscula</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Mayúscula - Minúscula</h1>
+      
+        <div class="group">
+            <label for="opcion">Opciones</label>
+            <select name="opcion" id="opcion">
+                <option value="1">Mayúscula</option>
+                <option value="2">Minúscula</option>
+            </select>
+            <label for="frase">Palabra o Frase</label>
+            <textarea type="text" id="frase" class="frase"></textarea>
+        </div>
+    
+        <div class="loading">
+            <img width="32" height="32" src="assets/loading-gif.gif" alt="loading">
+        </div>
+    
+        <div class="group-salida" id="group-salida">
+            <label for="resultado">Resultado</label>
+            <textarea disabled name="resultado" id="resultado"></textarea>
+        </div>
+        <div class="group-btn">
+            <button id="convertir">Convertir</button>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
